@@ -4,4 +4,4 @@ RUN apt-get install -y nginx
 
 EXPOSE 8080
 
-CMD["nginx", "-g", "daemon off;"]
+CMD ["nginx", "-g", "daemon off;"]
